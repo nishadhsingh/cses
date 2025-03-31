@@ -3,10 +3,13 @@
 using namespace std;
 
 int main(){
-    int n;
+    unsigned long long n;
     cin >> n ;
-    int numbers[n] = {};
-    for(int i =0;i<n;i++){
-        cin >> numbers[i];
+    unsigned long long expected =(n*(n+1))/2;
+    for(unsigned long long i =0;i<n-1;i++){
+        unsigned long input = 0;
+        cin >> input;
+        expected -= input;
     }
+    cout << expected;
 }
