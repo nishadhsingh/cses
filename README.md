@@ -1,2 +1,2 @@
-# cses
-cses introductory problems
+# Practice Pad 
+Container repo for my problem solutions for record keeping.

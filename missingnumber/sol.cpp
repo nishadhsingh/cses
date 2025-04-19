@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    unsigned long long n;
+   unsigned int n;
     cin >> n ;
     unsigned long long expected =(n*(n+1))/2;
     for(unsigned long long i =0;i<n-1;i++){
